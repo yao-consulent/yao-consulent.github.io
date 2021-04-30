@@ -42,16 +42,15 @@ nav{
 
 }
 
-@media screen and (max-width:1024px){
-    .menu-link{
-        background-color: rgb(104, 209, 135);
-        width: 50%;
-    }
-}
 
 @media screen and (max-width:600px){
     
-    body{
-        display: none;
+    .menu{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top:8vh;
+        background-color: crimson;
+
     }
 }
