@@ -18,7 +18,7 @@ nav{
     display: flex;
     background-color: blue;
     justify-content: space-around;
-    width: 30%;
+    width: 50%;
 }
 
 .sm-link{
@@ -30,4 +30,28 @@ nav{
 
 .sm-link li a{
     font-size: 20px;
+}
+.burger{
+    display:none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: rgb(228, 228, 245);
+    margin: 5px;
+
+}
+
+@media screen and (max-width:1024px){
+    .menu-link{
+        background-color: rgb(104, 209, 135);
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    body{
+        display: none;
+    }
 }
