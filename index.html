@@ -4,29 +4,47 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="compositions.css">
-        <link rel="stylesheet" href="defaults.css">
-        <link rel="stylesheet" href="exceptions.css">
-        <link rel="stylesheet" href="utilities.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Over Yao</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="menu.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Project nog is proberen</title>
     </head>
     <body>
-        <header class="grid">
-            <nav class="menu">
-                <div id="logo">
-                    <img src="" alt="logo">
+        <div class="menu-wrap">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger"><div></div></div>
+            <div class="menu">
+                <div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Over Yao</a></li>
+                            <li><a href="#">Projecten</a></li>
+                            <li><a href="#">Galerie</a></li>
+                            <li><a href="#">Agenda</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <ul class="menu-link">
-                    <li><a href="index.html">over Yao</a></li>
-                    <li><a href="projecten.html">Projecten</a></li>
-                    <li><a href="galeries.html">Galeries</a></li>
-                    <li><a href="#">Politiek</a></li>
-                    <li><a href="#">contact</a></li>
-                </ul>
+            </div>
+        </div>
+        <header id="showcase" class="grid">
+            <div class=" bg-img"></div>
+        </header>
+        
+        <main id="main">
+            <section id="about" class="grid">
+                <div class="content-wrap">
+                    <h1 class="content-title">Over Yao</h1>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore libero ratione ducimus est fugiat. Atque optio veniam ipsa consequuntur et ipsam dignissimos quisquam, delectus repellat quam fugit autem vel molestiae. Nam, dolores nulla. Deleniti quibusdam asperiores recusandae quasi reiciendis!
+                    </p>
+                </div>
+            </section>
+        </main>
 
-                <ul class="sm-link">
+        <footer id="main-footer" class="grid">
+            <div class="link-sm" class="grid">
+                <ul>
                     <li>
                         <a href="#"><i class="fa fa-facebook"></i></a>
                     </li>
@@ -37,34 +55,8 @@
                         <a href="#"><i class="fa fa-linkedin"></i></a>
                     </li>
                 </ul>
-                     <div class="burger">
-                         <div class="line1"></div>
-                         <div class="line2"></div>
-                         <div class="line3"></div>
-                     </div>
-            
-            </nav>
-        </header>
-        <main>
-            <section id="foto" class="grid">
-                <img src="yao.jpg" alt="">
-            </section>
-            <section id="about" class="grid">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam perferendis non cumque doloremque reprehenderit voluptates, consequuntur fuga pariatur quos. Deleniti fugit mollitia expedita voluptas molestiae esse accusamus accusantium ratione voluptatibus numquam, consequatur exercitationem, quia quidem, minima omnis nisi facere. Modi.
-            </section>
-            <section id="politiek" class="grid">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit ullam iusto quam necessitatibus commodi corrupti dicta ipsa sed ratione adipisci, est esse voluptates accusantium aperiam placeat officia porro dolorum odio!
-                </p>
-            </section>
-            <section id="contact" class="grid">
-                <div class="box">
-                    <h2 class="content-title"> contacteer me</h2>
-                    <p>contact@blabla.text</p>
-                </div>
-            </section>
-
-        </main>
-    
+            </div>
+        
+        </footer>
     </body>
 </html>
