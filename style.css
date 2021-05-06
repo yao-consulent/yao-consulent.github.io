@@ -1,6 +1,8 @@
 :root{
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51, 0.85);
+    --primary-color: rgba(25, 44, 46, 0.75);
+    --overlay-color: rgba(195, 243, 245, 0.85);
+    /* --primary-color: rgba(13, 110, 139, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85); */
     --menu-speed: 0.75s;
 }
 
@@ -74,7 +76,7 @@ footer>a>img{
 }
 footer{
     text-align: center;
-    background: var(--overlay-color);
+    background: var(--primary-color);
 }
 button{
     background-color: #000;
