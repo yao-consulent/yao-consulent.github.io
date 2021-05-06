@@ -27,9 +27,9 @@ body{
     background:url(yao.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+   background-size: cover;
    width: 100%;
-   height: 300px;
+   height: 250px;
    z-index: -1;
    opacity: 0.8;
    
@@ -38,19 +38,62 @@ body{
 .content-wrap{
     padding: 0 1.5em;
 }
+main{
+    padding:10px;
+}
+.menu>div>div>ul>li>a{
+    font-size: 20px;
+}
+
+.menu>div>div>ul>li{
+   width: 450px;
+}
+
+.menu>div>div>ul>li:hover{
+    background: var(--primary-color);
+
+}
+
 #about{
     background: var(--primary-color);
     color: #fff;
-    padding-bottom: 2em;
     text-align: center;
     justify-content: justify;
 }
-#main-footer{
-    padding: 2em;
-    background-color: var(--overlay-color);
+
+a {
+    font-size: 10px;
+    color: white;
+}
+footer>a>img{
+    width:25px;
+    height: 25px;
+    margin:10px;
+    
+    
+}
+footer{
+    text-align: center;
+    background: var(--overlay-color);
+}
+button{
+    background-color: #000;
     color: #fff;
- 
+    padding:8px;
+    margin:3px;
+    border: 1px solid #FFF;
 }
 
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
 
+footer>p{
+    color:#fff;
+}
+input{
+    width:300px;
+    height:30px;
+}
 
