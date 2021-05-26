@@ -1,3 +1,4 @@
+/*menu wrap*/
 .menu-wrap{
     position: fixed;
     top: 0;
@@ -129,7 +130,7 @@
 
 .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: #fff;
+    color:rgb(17, 17, 17);
     font-size: 1.5rem;
     padding: 1rem;
 }
@@ -138,4 +139,40 @@
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
+}
+
+/*menu desktop*/
+
+div.menu-desktop> nav{
+    width: 100%;
+    height: 100px;
+    background-color: var(--primary-color);  
+   
+}
+
+div.menu-desktop> nav> ul{
+    margin-left: 60px;
+   
+}
+div.menu-desktop>nav> ul>li{
+    list-style: none;
+    display: inline-block;
+    float:left;
+    line-height: 100px;
+    justify-content: space-between;
+    
+}
+div.menu-desktop> nav> ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arial;
+    color: #1e1e1e;
+    padding: 0 20px;
+
+}
+div.menu-desktop> nav> ul>li>a:hover{
+    
+    color: #eee;
+
 }
