@@ -7,17 +7,43 @@ h1{
     
 }
 .about img{
-    margin-top: 100px;
-    width: 30%;
-    height: auto;
-    position: center;
+    width: 600px;
+    height: 470px;
     float: left;
+    margin:40px;
+    padding:40px;
   
 }
 
 p{
-    font-size: 20px;
+    margin: 20px;
+    font-size: 16px;
     
+}
+
+#gridcontainer{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;    
+    grid-template-rows:100%;
+    grid-template: "foto","tekstje", "tekstje";
+
+}
+#foto{
+    grid-area: "foto";
+} 
+
+#tekstje{
+    grid-area: "tekstje";
+    text-align: justify;
+}
+
+
+footer{
+    text-align: center;
+    background:red;
+    height:160px;
+    margin-bottom: -50px;
+
 }
 
 footer ul {
@@ -42,17 +68,15 @@ footer ul li a img{
     
     
 }
-footer{
-    text-align: center;
-    background:#34495e;
-}
-button{
-    background-color: #000;
+
+footer button{
+    background-color: #8b0000;
     color: #fff;
     padding:8px;
     margin:3px;
     border: 1px solid #FFF;
     float: left;
+    margin-left:100px;
 }
 
 button:hover{
@@ -62,11 +86,83 @@ button:hover{
 
 footer>p{
     color:#fff;
-    font-size: 15px;
+    font-size: 17px;
+
 }
 input{
     float: left;
     width:300px;
     height:30px;
 }
+
+
+
+
+@media (max-width: 909px){
+    .about img{
+        width: 250px;
+        height: 250px;
+        margin:0px;
+    }
+    #tekstje{
+        margin:20px;
+        font-size:12px;
+        text-align: justify;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        padding:0px;
+        margin:5px;
+    }
+
+
+    footer ul li {
+      list-style: none;
+      display: inline-block;
+      margin-top: 7px;
+      margin-left:-60px;
+      margin:2px;
+    }
+
+    
+    footer ul li a img{
+        width:20px;
+        height: 20px;
+        margin:10px;
+        
+        
+    }
+    footer{
+        text-align: center;
+        background:red;
+        height:100px;
+        font-size: 10px;
+    }
+    footer button{
+        background-color: rgb(129, 8, 8);
+        color: #fff;
+        padding:5px;
+        margin:0px;
+        border: 1px solid #FFF;
+        margin-left:0px;
+        font-size: 10px;
+    }
+    
+    
+    footer>p{
+        color:#fff;
+        font-size: 10px;
+    
+    }
+
+    input{
+        float:center;
+        width:100px;
+        height:20px;
+        font-size: 10px;
+    }
+
+}
+
 
