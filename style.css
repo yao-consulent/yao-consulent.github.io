@@ -1,74 +1,41 @@
-:root{
-    --primary-color:#FF0000;
-    --overlay-color: #fff;
-    /* --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51, 0.85); */
-    --menu-speed: 0.75s;
-}
-
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-}
-
-body{
-    font-family: "roboto", sans-serif;
-    line-height: 1.4;
-   
-}
-#showcase{
-    min-height: 300px;
-    color: #fff;
+h1{
+    font-size: 40px;
     text-align: center;
+    margin-left: 25px;
+    margin-right: 125px;
+    padding: 25px ;
+    
+}
+.about img{
+    margin-top: 100px;
+    width: 30%;
+    height: auto;
+    position: center;
+    float: left;
+  
 }
 
-#showcase .bg-img{
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    background:url(yao.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   height: 300px;
-   z-index: -1;
-   opacity: 0.8;
-   
-}
-
-.content-wrap{
-    padding: 0 1.5em;
-}
-main{
-    padding:5px;
-}
-.menu>div>div>ul>li>a{
+p{
     font-size: 20px;
+    
 }
 
-.menu>div>div>ul>li{
-   width: 450px;
-}
-
-.menu>div>div>ul>li:hover{
-    background: var(--primary-color);
+footer ul {
+    float: right;
 
 }
-
-#about{
-    background: var(--overlay-color);
-    color: rgb(17, 17, 17);
-    text-align: center;
-    justify-content: justify;
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-top: -500px;
+  margin-bottom: 100px;
 }
+footer ul li a{
+    text-decoration: none;
+  
+  }
 
-a {
-    font-size: 10px;
-    color: white;
-}
-footer>a>img{
+footer ul li a img{
     width:25px;
     height: 25px;
     margin:10px;
@@ -77,7 +44,7 @@ footer>a>img{
 }
 footer{
     text-align: center;
-    background: var(--primary-color);
+    background:#34495e;
 }
 button{
     background-color: #000;
@@ -85,6 +52,7 @@ button{
     padding:8px;
     margin:3px;
     border: 1px solid #FFF;
+    float: left;
 }
 
 button:hover{
@@ -94,20 +62,11 @@ button:hover{
 
 footer>p{
     color:#fff;
+    font-size: 15px;
 }
 input{
+    float: left;
     width:300px;
     height:30px;
 }
 
-@media only screen and (min-width: 600px) {
-    body{
-        background-color: #eee;
-    }
-    div.menu-wrap{
-        display: none;
-    }
-    div.menu-desktop> nav{
-        position: absolute;
-    }
-}
