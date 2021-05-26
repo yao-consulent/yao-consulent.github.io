@@ -101,7 +101,7 @@ nav #icon{
 
    a.active, a:hover{
        border: none;
-       color: #fa7d6c;
+       color: #f3aaa0;
    }
    nav ul.show{
        left: 0;
