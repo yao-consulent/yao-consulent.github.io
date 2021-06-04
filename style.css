@@ -7,11 +7,11 @@ h1{
     
 }
 .about img{
-    width: 500px;
+    width: 600px;
     height: 500px;
     float: left;
-    margin:40px;
-    padding:40px;
+    margin:10px;
+    padding:20px;
   
 }
 
@@ -23,21 +23,122 @@ p{
 
 #gridcontainer{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;    
-    grid-template-rows:100%;
-    grid-template: "foto","tekstje", "tekstje";
+    grid-template-columns:auto auto;    
+
+/*grid-template: "foto","tekstje"*/
+    
 
 }
 #foto{
-    grid-area: "foto";
+    grid-area: 1;
+    float: left;
+      
 } 
 
 #tekstje{
-    grid-area: "tekstje";
+    grid-area:  1/ 2;
     text-align: justify;
 }
+/* Samenwerking gedeelte*/
+.link1{
+    margin: 20px 20px;
+    padding: 20px;
+    align-items: auto;
 
+}
+/* t staat voor text*/
+.t-middelheim{
+    float: left;
+    text-align: justify;
+    
+    
+}
 
+.congoville{
+    float: right;
+    width: 500px;
+    height: 300px;
+   
+}
+
+.link2{
+    margin: 20px 20px;
+    padding: 20px;
+    align-items: auto;
+
+}
+
+.t-aroma{
+    float: right;
+    text-align: justify;
+    
+    
+}
+/* p staat voor picture*/
+.p-aroma{
+    float: left;
+    width: 500px;
+    height: 300px;
+   
+}
+
+.link3{
+    margin: 20px 20px;
+    padding: 20px;
+    align-items: auto;
+
+}
+
+.t-arm{
+    float: left;
+    text-align: justify;
+    
+    
+}
+
+.p-arm{
+    float: right;
+    width: 500px;
+    height: 300px;
+   
+}
+
+/*publicatie gedeelte*/
+/* img */
+#nonkel{
+    grid-area: 1;
+}
+.tony{
+    width: 410px;
+    margin: 10px;
+    margin-left: 15px;
+   float: right;
+}
+
+/* Tekst */
+.t-tony{
+    margin: 30px;
+    padding: 10px;
+    text-align: justify;
+   
+}
+
+.t-tony a{
+    color: red;
+}
+#nord{
+    grid-area: 2;
+}
+
+.bxl{
+    grid-area: 1/2;
+    float: left;
+    width: 400px;
+    margin: 10px;
+
+}
+
+/* Algemeen footer */
 footer{
     text-align: center;
     background:red;
@@ -98,24 +199,68 @@ input{
 
 
 
-@media (max-width: 909px){
-    .about img{
+@media (max-width: 700px){
+
+    /* Index gedeelte*/
+    .about{
+        grid-area: 1;
+        width: 100%;
         width: 250px;
-        height: 250px;
-        margin:0;
+        margin: 0;
+        
     }
+  
     #tekstje{
-        margin:20px;
-        font-size:12px;
+        grid-area: 2;
+        margin: 2 15px;
+        font-size:15px;
         text-align: justify;
     }
     h1{
         font-size: 40px;
         text-align: center;
-        padding:0px;
+        padding:0;
         margin:5px;
     }
 
+
+
+    /*samenwerking gedeelte*/
+    
+    .link1{
+        grid-area: 1;
+        align-items: center;
+        margin: 0 ;
+    }
+    .link2{
+        color: rgb(243, 239, 239);
+        grid-area: 2;
+        margin-left: 5px;
+        background-color: red;
+    }
+    .link3{
+        grid-area: 3;
+    }
+
+
+    div>a>img{
+        margin: 0 50px;
+    }
+
+
+
+
+
+/*algemeen footer*/
+ footer{
+        position: absolute;
+        
+        width: 100%;
+        text-align: center;
+        background:red;
+        height:180px;
+        font-size: 10px;
+    }
 
     footer ul li {
       list-style: none;
@@ -133,12 +278,7 @@ input{
         
         
     }
-    footer{
-        text-align: center;
-        background:red;
-        height:100px;
-        font-size: 10px;
-    }
+   
     footer button{
         background-color: rgb(129, 8, 8);
         color: #fff;
@@ -152,7 +292,7 @@ input{
     
     footer>p{
         color:#fff;
-        font-size: 10px;
+        
     
     }
 
