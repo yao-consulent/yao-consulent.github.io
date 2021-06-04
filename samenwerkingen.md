@@ -5,5 +5,6 @@ layout: default
 # Samenwerkingen
 
 {% for samenwerking in site.samenwerkingen %}
- - {{ samenwerking.content }}
+ - {{ samenwerking.title }}
+   {{ samenwerking.content }}
 {% endfor %}
