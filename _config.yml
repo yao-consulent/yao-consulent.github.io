@@ -1,0 +1,9 @@
+baseurl: ""
+
+repo: "https://github.com/yao-consulent"
+github_user: "yao-consulent"
+github_repo: "yao-consulent.github.io"
+
+collections:
+  samenwerkingen:
+    output: true
