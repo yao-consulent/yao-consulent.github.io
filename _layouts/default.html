@@ -22,22 +22,31 @@
 
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="stylesheet" href="css/composition.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/blocks.css"> -->
 </head>
 
 <body>
-    <nav>
-        <label class="logo">YAO</label>
-        <ul>
-            <li><a class="active" href="index.html">Over YAO</a></li>
-            <li><a href="samenwerkingen.html">Samenwerkingen</a></li>
-            <li><a href="publicaties.html">Publicaties</a></li>
-            <li><a href="#">Hobby's</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <label id="icon">
-            <i class="fas fa-bars"></i>
-        </label>
-    </nav>
+    <header>
+
+        <nav id="main-menu">
+            <label class="logo main-menu__menu-item">
+                <a href="/">YAO</a>
+            </label>
+            <ul class="main-menu__menu-items main-menu__menu-item">
+                <li class="main-menu__menu-item"><a class="active" href="index.html">Over YAO</a></li>
+                <li class="main-menu__menu-item"><a href="samenwerkingen.html">Samenwerkingen</a></li>
+                <li class="main-menu__menu-item"><a href="publicaties.html">Publicaties</a></li>
+                <li class="main-menu__menu-item"><a href="#">Hobby's</a></li>
+                <li class="main-menu__menu-item"><a href="#">Contact</a></li>
+            </ul>
+            <label class="main-menu__responsive-button" id="icon">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
+    </header>
 
     <main>
         {{ content }}

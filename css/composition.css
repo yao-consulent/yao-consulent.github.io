@@ -1,0 +1,40 @@
+:root {
+    --color-accent-red: #f00;
+    --color-100: #eee;
+    --color-900: #000;
+
+    --max-site-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#main-menu {
+    background-color: var(--color-accent-red);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu__menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu__menu-item {
+    display: inline-block;
+}
+
+.main-menu__menu-item>a {
+    display: block;
+    padding: 16px;
+}
+
+.main-menu__responsive-button {
+    display: none;
+}
