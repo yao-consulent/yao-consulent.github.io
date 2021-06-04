@@ -4,7 +4,11 @@ layout: default
 
 # Samenwerkingen
 
+<ul>
 {% for samenwerking in site.samenwerkingen %}
- - {{ samenwerking.title }}\
-   {{ samenwerking.content }}
+    <li>
+        {{ samenwerking.title }}
+        {{ samenwerking.content }}
+   </li>
 {% endfor %}
+</ul>
