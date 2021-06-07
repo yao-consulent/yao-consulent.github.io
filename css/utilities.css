@@ -13,6 +13,9 @@
     color: rgb(17, 17, 17);
 
 }
+.centered{
+    margin: 0 auto;
+}
 /*
 :root {
     --color-accent-red: #f00;
