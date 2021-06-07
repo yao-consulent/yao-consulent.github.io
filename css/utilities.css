@@ -6,8 +6,12 @@
     background: #eee;
 }
 
-.bg-third{
-    background: #000;
+.color-primary{
+    color: rgb(240, 238, 238);
+}
+.color-secondary{
+    color: rgb(17, 17, 17);
+
 }
 /*
 :root {
