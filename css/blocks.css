@@ -1,7 +1,6 @@
 
 
 #main-menu {
-    background-color: var(--color-accent-red);
     display: flex;
     justify-content: space-between;
 }
@@ -19,6 +18,9 @@
 .main-menu__menu-item>a {
     display: block;
     padding: 16px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 3px;
 }
 
 .main-menu__responsive-button {
