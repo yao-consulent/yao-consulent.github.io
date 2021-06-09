@@ -7,6 +7,3 @@ github_repo: "yao-consulent.github.io"
 collections:
   samenwerkingen:
     output: true
-
-  over yao:
-    output: true
