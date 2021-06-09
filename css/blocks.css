@@ -64,7 +64,7 @@ footer>.footer-items {
 
 .footer-item__footer-link{
     display: block;
-    
+    padding: 16px;
     font-size: 25px;
 }
 
