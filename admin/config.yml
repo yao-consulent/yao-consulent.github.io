@@ -18,3 +18,12 @@ collections:
       fields: # The fields for each document, usually in front matter
           - { label: "title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+    - name: "over yao" # Used in routes, e.g.,/admin/collections/blog
+      label: "Over Yao" # Used in the UI
+      folder: "_overYao/" # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: "{{slug}}-{{year}}-{{month}}-{{day}}" # Filename template, e.g., YYYY-MM-DD-title.md
+      fields: # The fields for each document, usually in front matter
+          - { label: "title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
