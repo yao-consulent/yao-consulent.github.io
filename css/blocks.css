@@ -74,6 +74,7 @@ footer>.footer-items {
 footer> .admin{
     font-size: 15px;
     margin-left: 20px;
+    text-decoration: underline;
 }
 
 /*.footer-item__footer-link i{
