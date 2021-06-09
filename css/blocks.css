@@ -64,8 +64,8 @@ footer>.footer-items {
 
 .footer-item__footer-link{
     display: block;
-    padding: 16px;
-    font-size: 30px;
+    
+    font-size: 25px;
 }
 
 /*.footer-item__footer-link i{
