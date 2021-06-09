@@ -1,6 +1,8 @@
 @media only screen and (max-width:650px) {
-    body{
+    .main-menu{
         display: none;
     }
+
+    
 
 }
