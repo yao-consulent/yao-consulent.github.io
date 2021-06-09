@@ -14,7 +14,7 @@ body {
     grid-template-rows: 100px auto 400px;
     grid-template-areas: 
                        "header header"
-                       "main-img main-text"
+                       "main main"
                        "footer footer";
 
 }
@@ -24,13 +24,8 @@ body {
    
 
 }
-.main-img{
-    grid-area: main-img;
-   
-}
-
-.main-text{
-    grid-area: main-text;
+main{
+    grid-area: main;
    
 }
 
