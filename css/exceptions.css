@@ -8,6 +8,18 @@
         display: block;
     }
 
+    .main-menu__menu-items{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #f0371e;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+
+    }
+
     
 
 }
