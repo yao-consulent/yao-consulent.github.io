@@ -5,5 +5,9 @@ github_user: "yao-consulent"
 github_repo: "yao-consulent.github.io"
 
 collections:
+  overYao:
+    output: true
   samenwerkingen:
     output: true
+
+  

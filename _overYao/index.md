@@ -29,5 +29,4 @@ Sinds 2020 studeer ik NLP (Neuro Linguïstisch Programmeren) aan de UNLP Amsterd
 Het ontwikkelen van een inclusieve samenleving is een kunstwerk, een proces maar het is ook een droom. Diversiteit  groeit en raakt, maar diversiteit smaakt ook! Laat ons samen groeien naar een inclusieve “thuis” voor iedereen. Ik kijk alvast uit naar een rijke samenwerking vol boeiende uitwisselingen. 
 
 
-![](/images/overYao.jpg)
 
