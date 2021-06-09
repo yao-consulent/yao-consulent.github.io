@@ -50,3 +50,23 @@ h1{
 .main-menu__responsive-button {
     display: none;
 }
+
+footer>.footer-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-item {
+    display: inline-block;
+}
+
+.footer-item__footer-link{
+    display: block;
+    padding: 16px;
+    font-size: 50px;
+}
+
+.footer-item__footer-link i{
+    background-color: chocolate;
+}
