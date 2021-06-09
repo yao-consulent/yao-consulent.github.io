@@ -39,6 +39,15 @@ label.logo{
     transition: .5s ;
 }
 
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 125px;
+    padding: 25px ;
+    
+}
+
 .main-menu__responsive-button {
     display: none;
 }
