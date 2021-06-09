@@ -17,17 +17,17 @@
 
 .main-menu__menu-item>a {
     display: block;
-    /*padding: 16px;
+    padding: 16px;
     text-transform: uppercase;
     border: 1px solid transparent;
     border-radius: 3px;
-    */
-
     font-size: 18px;
-    text-transform: uppercase;
-    border: 1px solid transparent;
-    padding: 7px 10px;
-    border-radius: 3px;
+
+}
+
+a.active, a:hover{
+    border: 1px solid #eee;
+    transition: .5s ;
 }
 
 .main-menu__responsive-button {
