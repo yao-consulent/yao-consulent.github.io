@@ -60,6 +60,7 @@ footer>.footer-items {
 
 .footer-item {
     display: inline-block;
+    justify-content: space-between;
 }
 
 .footer-item__footer-link{
