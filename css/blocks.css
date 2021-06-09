@@ -85,4 +85,9 @@ footer> .admin{
     text-decoration: underline;
 }
 
+@media (max-width: 650px){
+    body{
+        display: none;
+    }
+}
 
