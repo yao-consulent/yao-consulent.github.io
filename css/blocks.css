@@ -25,7 +25,7 @@
 
 }
 
-a.active, a:hover{
+.main-menu__menu-item a.active, a:hover{
     border: 1px solid #eee;
     transition: .5s ;
 }
