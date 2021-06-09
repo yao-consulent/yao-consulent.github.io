@@ -13,6 +13,7 @@
 
 .main-menu__menu-item {
     display: inline-block;
+    margin: 20px;
 }
 
 .main-menu__menu-item>a {
