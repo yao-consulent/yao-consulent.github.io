@@ -71,6 +71,10 @@ footer>.footer-items {
     padding: 16px;
     font-size: 25px;
 }
+footer> .admin{
+    font-size: 15px;
+    margin-left: 20px;
+}
 
 /*.footer-item__footer-link i{
 
