@@ -18,3 +18,12 @@ collections:
       fields: # The fields for each document, usually in front matter
           - { label: "title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+    - name: "main pages"
+      label: "main pages"
+      files: 
+        - name: "publicaties"
+          label: "publicaties"
+          file: "/publicaties.md"
+          fields: # The fields for each document, usually in front matter
+            - { label: "title", name: "title", widget: "string" }
+            - { label: "Body", name: "body", widget: "markdown" }
