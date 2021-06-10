@@ -42,8 +42,9 @@ footer{
 @media (min-width: 600px) {
     #samenwerkingen-container {
         display: grid;
-
         grid-template-columns: 1fr 1fr;
+        padding: 32px;
+        grid-gap: 32px;
     }
 }
 
