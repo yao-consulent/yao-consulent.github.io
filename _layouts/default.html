@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -18,29 +17,33 @@
             })
         })
     </script>
+    <link rel="stylesheet" href="css/composition.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/blocks.css">
+    <link rel="stylesheet" href="css/exceptions.css">
+ 
     <title>Over Yao</title>
-
+   
+<!--
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="style.css">
 
-    <!-- <link rel="stylesheet" href="css/composition.css">
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/blocks.css"> -->
+-->
+   
 </head>
 
-<body>
-    <header>
-
+<body id="grid-container">
+    <header class="bg-primary">
         <nav id="main-menu">
-            <label class="logo main-menu__menu-item">
-                <a href="/">YAO</a>
+            <label class="logo">
+                <a class="color-primary" href="/">YAO</a>
             </label>
-            <ul class="main-menu__menu-items main-menu__menu-item">
-                <li class="main-menu__menu-item"><a class="active" href="index.html">Over YAO</a></li>
-                <li class="main-menu__menu-item"><a href="samenwerkingen.html">Samenwerkingen</a></li>
-                <li class="main-menu__menu-item"><a href="publicaties.html">Publicaties</a></li>
-                <li class="main-menu__menu-item"><a href="#">Hobby's</a></li>
-                <li class="main-menu__menu-item"><a href="#">Contact</a></li>
+            <ul class="main-menu__menu-items">
+                <li class="main-menu__menu-item"><a class="color-primary active" href="index.html">Over YAO</a></li>
+                <li class="main-menu__menu-item"><a class="color-primary" href="samenwerkingen.html">Samenwerkingen</a></li>
+                <li class="main-menu__menu-item"><a class="color-primary" href="publicaties.html">Publicaties</a></li>
+                <li class="main-menu__menu-item"><a class="color-primary" href="#">Hobby's</a></li>
+                <li class="main-menu__menu-item"><a class="color-primary" href="#">Contact</a></li>
             </ul>
             <label class="main-menu__responsive-button" id="icon">
                 <i class="fas fa-bars"></i>
@@ -48,41 +51,30 @@
         </nav>
     </header>
 
-    <main>
-        {{ content }}
+    <main class="bg-secondary">
+            {{ content }} 
     </main>
 
-    <footer>
-        <a href="/admin">admin</a>
-        <input type="text" value="Email Address">
-        <p>
+    <footer class="bg-primary">
+        <p class="footer-contact color-primary">
             Joske.vermeulen@hotmail.com
-            <br>
+        </p>
+        <p class="footer-contact color-primary">
             049351218521
         </p>
-
-        <ul>
-            <li>
-                <a href="">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png">
-                </a>
+        <ul class="footer-items">
+            <li class="footer-item">
+                <a class="footer-item__footer-link" href="#"><i class="fab fa-facebook color-primary"></i></a>
             </li>
-            <li>
-                <a href="">
-                    <img
-                        src="https://img.utdstc.com/icon/fe0/ab6/fe0ab67fa0de2b2681602db5708a076f50dd21106e0c2d38b9661875a37e235e:200">
-                </a>
+            <li class="footer-item">
+                <a class="footer-item__footer-link" href=""><i class="fab fa-instagram color-primary"></i></a>
             </li>
-            <li>
-                <a href="">
-                    <img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png">
-                </a>
-
+            <li class="footer-item">
+                <a class="footer-item__footer-link" href=""><i class="fab fa-linkedin-in color-primary"></i></a>
             </li>
         </ul>
-        <button href="#">SCHRIJF IN</button>
+
+        <a class="admin color-secondary" href="/admin">admin</a>
 
     </footer>
 

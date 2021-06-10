@@ -1,19 +1,50 @@
-:root {
-    --color-accent-red: #f00;
-    --color-100: #eee;
-    --color-900: #000;
-
-    --max-site-width: 1200px;
-}
-
 * {
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
+    
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px auto auto;
+    grid-template-areas: 
+                       "header header"
+                       "main main"
+                       "footer footer";
+
 }
 
+#grid-container>header{
+    grid-area: header;
+   
+
+}
+main{
+    grid-area: main;
+   
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+@media (min-width: 600px) {
+    #samenwerkingen-container {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*
 #main-menu {
     background-color: var(--color-accent-red);
     display: flex;
@@ -37,12 +68,4 @@ body {
 
 .main-menu__responsive-button {
     display: none;
-}
-
-@media (min-width: 600px) {
-    #samenwerkingen-container {
-        display: grid;
-
-        grid-template-columns: 1fr 1fr;
-    }
 }

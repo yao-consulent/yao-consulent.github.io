@@ -1,0 +1,87 @@
+label.logo{
+    font-family: 'Limelight', cursive;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 60px;
+}
+
+#main-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu__menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu__menu-item {
+    display: inline-block;
+    margin: 10px;
+}
+
+.main-menu__menu-item>a {
+    display: block;
+    padding: 7px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    
+
+}
+
+.main-menu__menu-item a.active, a:hover{
+    border: 1px solid #eee;
+    transition: .5s ;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 5px ;
+    
+}
+
+.main-menu__responsive-button {
+    display: none;
+}
+
+img{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 600px;
+    height: 500px;
+}
+.footer-contact{
+    text-align: center;
+}
+
+footer>.footer-items {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-item {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.footer-item__footer-link{
+    display: block;
+    padding: 16px;
+    font-size: 25px;
+}
+footer> .admin{
+    font-size: 15px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
