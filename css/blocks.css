@@ -19,7 +19,17 @@ label.logo{
 }
 #main-menu #icon{
     display: block;
+    color: #eee;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
+
+
 
 #main-menu .main-menu__menu-items{
     position: fixed;
