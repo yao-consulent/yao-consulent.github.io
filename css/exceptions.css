@@ -26,17 +26,7 @@
 
 */
 
-#main-menu #icon{
-    color: #eee;
-    font-size: 30px;
-    
-    float: right;
-    margin-right: 40px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
 
-}
 
 @media (max-width: 700px){
     label.logo{
@@ -44,9 +34,17 @@
         padding-left: 60px;
     }
     #main-menu #icon{
-        background-color: cyan;
+        color: #eee;
+        font-size: 30px;
+        
+        float: right;
+        margin-right: 40px;
+        margin-right: 40px;
+        cursor: pointer;
         display: block;
+    
     }
+    
     #main-menu .main-menu__menu-items{
         position: fixed;
         width: 100%;
