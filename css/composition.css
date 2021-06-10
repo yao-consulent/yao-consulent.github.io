@@ -13,6 +13,7 @@ body {
     margin: 0;
     
 }
+/*
 #grid-container{
     display: grid;
     grid-template-rows: 100px auto auto;
@@ -52,6 +53,7 @@ footer{
         grid-gap: 32px;
     }
 }
+Tot hier */
 
 
 /*
