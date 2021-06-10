@@ -4,7 +4,7 @@ layout: default
 
 # Samenwerkingen
 
-<ul>
+<ul id="samenwerkingen-container">
 {% for samenwerking in site.samenwerkingen %}
     <li>
         {{ samenwerking.title }}
