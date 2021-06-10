@@ -4,7 +4,7 @@ layout: default
 
 # Over Yao
 
-![](/images/overYao.jpg)
+<img src="/images/overYao.jpg" class="frontPageImage">
 
 Ik heb verschillende background. Ik ben moeder van 5 volwassen kinderen en zorg daarnaast voor mijn lieve mama. Ik ben dagelijks intensief bezig met diversiteit en inclusieve samenleving. 
 
