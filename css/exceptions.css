@@ -26,7 +26,9 @@
 
 */
 
-
+#main-menu .main-menu__responsive-button {
+    display: none;
+}
 
 @media (max-width: 700px){
     label.logo{
@@ -46,7 +48,7 @@
     }
     
     #main-menu .main-menu__menu-items{
-        background-color:rgb(245, 27, 45);
+        background-color:#B22222;
         position: fixed;
         width: 100%;
         height: 100vh;
