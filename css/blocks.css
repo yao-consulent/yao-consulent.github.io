@@ -1,4 +1,3 @@
-/* Logo desktop
 label.logo{
     font-family: 'Limelight', cursive;
     text-transform: uppercase;
@@ -7,61 +6,7 @@ label.logo{
     padding: 0 100px;
     line-height: 60px;
 }
-*/
-/* logo mobile*/
-label.logo{
-    font-family: 'Limelight', cursive;
-    text-transform: uppercase;
-    font-size: 32px;
-    font-weight: bold;
-    padding-left: 60px;
-  
-}
-#main-menu .main-menu__responsive-button{
-    color: #eee;
-    font-size: 30px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    margin-right: 40px;
-    cursor: pointer;
 
-}
-#main-menu #icon{
-    display: block;
-    
-}
-
-
-
-#main-menu .main-menu__menu-items{
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-        
-}
-.main-menu__menu-items .main-menu__menu-item{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-}
-    .main-menu__menu-items a{
-        font-size: 18px;
-    }
-    a.active, a:hover{
-        border: none;
-        color: #f3aaa0;
-    }
-    .main-menu__menu-items .main-menu__menu-item.show{
-        left: 0;
-    }
-
-    
-/* Desktop
 #main-menu {
     display: flex;
     justify-content: space-between;
@@ -102,12 +47,9 @@ h1{
     
 }
 
-*/
-/*
 .main-menu__responsive-button {
     display: none;
 }
-*/
 .footer-contact{
     text-align: center;
 }

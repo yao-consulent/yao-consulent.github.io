@@ -10,7 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
     <link rel="stylesheet" href="css/composition.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/blocks.css">
