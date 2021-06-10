@@ -33,9 +33,7 @@
         font-size: 32px;
         padding-left: 60px;
     }
-    #main-menu{
-        background-color:red;
-    }
+   
     #main-menu #icon{
         color: #eee;
         font-size: 30px; 
@@ -53,6 +51,7 @@
         height: 100vh;
         top: 80px;
         left: -100%;
+        background-color:red;
         text-align: center;
         transition: all .5s;
 
