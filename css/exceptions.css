@@ -34,9 +34,9 @@
         padding-left: 60px;
     }
     #main-menu #icon{
+        background-color:'bg-primary';
         color: #eee;
-        font-size: 30px;
-        
+        font-size: 30px; 
         float: right;
         margin-right: 40px;
         margin-right: 40px;
