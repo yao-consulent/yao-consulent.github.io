@@ -44,6 +44,7 @@
         padding-left: 60px;
     }
     nav #icon{
+        background-color: cyan;
         display: block;
     }
     nav ul{
