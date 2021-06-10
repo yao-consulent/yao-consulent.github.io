@@ -1,3 +1,4 @@
+/* Logo desktop
 label.logo{
     font-family: 'Limelight', cursive;
     text-transform: uppercase;
@@ -6,7 +7,25 @@ label.logo{
     padding: 0 100px;
     line-height: 60px;
 }
+*/
+/* logo mobile*/
+label.logo{
+    font-family: 'Limelight', cursive;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 60px;
+  
+}
 
+
+#main-menu .main-menu__menu-items{
+        margin-right: 20px;
+    }
+    .main-menu__menu-items a{
+        font-size: 17px;
+    }
+/* Desktop
 #main-menu {
     display: flex;
     justify-content: space-between;
@@ -46,6 +65,8 @@ h1{
     padding: 5px ;
     
 }
+
+*/
 /*
 .main-menu__responsive-button {
     display: none;
