@@ -17,14 +17,37 @@ label.logo{
     padding-left: 60px;
   
 }
-
+#main-menu #icon{
+    display: block;
+}
 
 #main-menu .main-menu__menu-items{
-        margin-right: 20px;
-    }
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+        
+}
+.main-menu__menu-items .main-menu__menu-item{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
     .main-menu__menu-items a{
-        font-size: 17px;
+        font-size: 18px;
     }
+    a.active, a:hover{
+        border: none;
+        color: #f3aaa0;
+    }
+    .main-menu__menu-items .main-menu__menu-item.show{
+        left: 0;
+    }
+
+    
 /* Desktop
 #main-menu {
     display: flex;
