@@ -50,14 +50,6 @@ h1{
 .main-menu__responsive-button {
     display: none;
 }
-
-img{
-    margin-left: 20px;
-    margin-right: 20px;
-    float: left;
-    width: 600px;
-    height: 500px;
-}
 .footer-contact{
     text-align: center;
 }
