@@ -17,8 +17,7 @@ label.logo{
     padding-left: 60px;
   
 }
-#main-menu #icon{
-    display: block;
+#main-menu .main-menu__responsive-button{
     color: #eee;
     font-size: 30px;
     line-height: 80px;
@@ -26,7 +25,11 @@ label.logo{
     margin-right: 40px;
     margin-right: 40px;
     cursor: pointer;
-    display: none;
+
+}
+#main-menu #icon{
+    display: block;
+    
 }
 
 
