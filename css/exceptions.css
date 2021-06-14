@@ -85,6 +85,8 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 16px;
+    }
+    #over-container {
        width: 100%;
     }
 }
