@@ -93,7 +93,7 @@
     }
 
     #over-container p {
-        text-transform: uppercase;
+       text-transform: none;
        text-align-last: justify;
      }
  
