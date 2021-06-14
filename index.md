@@ -3,11 +3,12 @@ layout: default
 ---
 
 # Over Yao
-<section id="over-container">
+<main id="over-container">
     <img src="/images/overYao.jpg" class="frontPageImage">
 
     Ik heb verschillende background. Ik ben moeder van 5 volwassen kinderen en zorg daarnaast voor mijn lieve mama. Ik ben dagelijks intensief bezig met diversiteit en inclusieve samenleving. 
-    Momenteel werk ik als consulent voor het Agentschap integratie en inburgering van de  Vlaamse overheid in Brussel. Mijn focus ligt op het adviseren en bieden van ondersteuning bij de ontwikkeling van gemeentelijke cultuurbeleidsplannen, op inclusieve diversiteit en op toegankelijke communicatie naar en met de doelgroepen. Daarnaast geef ik ook vormingen rond interculturele communicatie, kruispunt denken, handelingskader diversiteit, en veranderingsmanagement. 
+    Momenteel werk ik als consulent voor het Agentschap integratie en inburgering van de  Vlaamse overheid in Brussel. Mijn focus ligt op het adviseren en bieden van ondersteuning bij de ontwikkeling van gemeentelijke cultuurbeleidsplannen, op inclusieve diversiteit en op toegankelijke communicatie naar en met de doelgroepen. Daarnaast geef ik ook vormingen rond interculturele communicatie, kruispunt denken, handelingskader diversiteit, en veranderingsmanagement.
+    
 
 
     In 2015 werkte ik als beleidsmedewerker op het kabinet van Minister Pascal Smet. Als adviseur ondersteunde ik het lokaal cultuurbeleid, sociaal-cultureel werk en zelforganisaties met allerlei vragen rond diversiteit en inclusie. Ook ondersteunde ik de toegankelijkheid van politieke communicatie naar de doelgroepen. 
@@ -31,7 +32,7 @@ layout: default
     Sinds 2020 studeer ik NLP (Neuro Linguïstisch Programmeren) aan de UNLP Amsterdam. NLP staat voor hoe we de wereld om ons heen waarnemen en hoe we erop reageren. 
 
     Het ontwikkelen van een inclusieve samenleving is een kunstwerk, een proces maar het is ook een droom. Diversiteit  groeit en raakt, maar diversiteit smaakt ook! Laat ons samen groeien naar een inclusieve “thuis” voor iedereen. Ik kijk alvast uit naar een rijke samenwerking vol boeiende uitwisselingen.
-</section> 
+</main> 
 
 
 
