@@ -84,6 +84,7 @@
     #over-container {
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
         padding: 16px;
         grid-gap: 16px;
     }
@@ -92,8 +93,8 @@
     }
 
     #over-container p {
-        width: 100%;
-        justify-content: ;
+        text-transform: uppercase;
+       text-align-last: justify;
      }
  
 
