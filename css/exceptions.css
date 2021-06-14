@@ -85,10 +85,19 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: 16px;
+        grid-gap: 16px;
     }
-    #over-container {
+    #over-container img {
        width: 100%;
     }
+
+    #over-container p {
+        width: 100%;
+        justify-content: ;
+     }
+ 
+
+    
 }
 
 
