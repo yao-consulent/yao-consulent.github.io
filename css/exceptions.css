@@ -84,7 +84,7 @@
     #over-container {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 32px;
+        padding: 16px;
        width: 100%;
     }
 }
