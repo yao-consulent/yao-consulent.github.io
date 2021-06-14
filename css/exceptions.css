@@ -94,7 +94,7 @@
 
     #over-container p {
        text-transform: none;
-       text-align-last: justify;
+       text-align: justify;
      }
  
 
