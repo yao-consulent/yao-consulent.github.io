@@ -1,5 +1,5 @@
 ---
-title: Klein Kasteeltje
+title:
 ---
 
 ## Klein Kasteeltje
