@@ -15,6 +15,7 @@ layout: default
   <div>
     BXL-NORD is een sociaal-artistiek filmproject van Globe Aroma. De leiding was in handen van regisseurs Jan Geers en Jamal Boukhriss. Het verhaal is geïnspireerd en gebaseerd op verhalen en improvisaties van bewoners en bezoekers in de Noordwijk. 22 acteurs spelen een rol in de film. Brusselse vrouwen en mannen, tussen 9 en 86 jaar, met 10 verschillende nationaliteiten: een taximan en huisvrouwen, muzikanten en bedienden, vluchtelingen en andere nieuwkomers.
 
-    ![](/images/bxl-nord.jpg)
+ 
    </div>
+    ![](/images/bxl-nord.jpg)
 </main>
