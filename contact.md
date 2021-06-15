@@ -4,6 +4,7 @@ layout: default
 
 
 ## Neem contact met mij via:
+
 <main id="contact-container">
 ![](/images/contact.jpg)
 <p> Email: Joskevermeulen@gmail.com </p>
