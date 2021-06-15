@@ -1,83 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#icon').click(function () {
-                $('ul').toggleClass('show')
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#icon').click(function () {
+                    $('ul').toggleClass('show')
+                })
             })
-        })
-    </script>
-    <link rel="stylesheet" href="css/composition.css">
-    <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/blocks.css">
-    <link rel="stylesheet" href="css/exceptions.css">
+        </script>
+        <link rel="stylesheet" href="css/composition.css">
+        <link rel="stylesheet" href="css/utilities.css">
+        <link rel="stylesheet" href="css/blocks.css">
+        <link rel="stylesheet" href="css/exceptions.css">
  
-    <title>Over Yao</title>
+        <title>Over Yao</title>
    
-<!--
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="style.css">
+    </head>
 
--->
-   
-</head>
+    <body id="grid-container">
+        <header class="bg-primary">
+            <nav id="main-menu">
+                <label class="logo">
+                    <a class="color-primary" href="/">YAO</a>
+                </label>
+                <ul class="main-menu__menu-items">
+                    <li class="main-menu__menu-item"><a class="color-primary active" href="index.html">Over YAO</a></li>
+                    <li class="main-menu__menu-item"><a class="color-primary" href="samenwerkingen.html">Samenwerkingen</a></li>
+                    <li class="main-menu__menu-item"><a class="color-primary" href="publicaties.html">Publicaties</a></li>
+                    <li class="main-menu__menu-item"><a class="color-primary" href="#contact.html">Contact</a></li>
+                </ul>
+                <label class="main-menu__responsive-button" id="icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+            </nav>
+        </header>
 
-<body id="grid-container">
-    <header class="bg-primary">
-        <nav id="main-menu">
-            <label class="logo">
-                <a class="color-primary" href="/">YAO</a>
-            </label>
-            <ul class="main-menu__menu-items">
-                <li class="main-menu__menu-item"><a class="color-primary active" href="index.html">Over YAO</a></li>
-                <li class="main-menu__menu-item"><a class="color-primary" href="samenwerkingen.html">Samenwerkingen</a></li>
-                <li class="main-menu__menu-item"><a class="color-primary" href="publicaties.html">Publicaties</a></li>
-                <li class="main-menu__menu-item"><a class="color-primary" href="#contact.html">Contact</a></li>
+        <main class="bg-secondary">
+                {{ content }} 
+        </main>
+
+        <footer class="bg-primary">
+            <p class="footer-contact color-primary">
+                Joske.vermeulen@hotmail.com
+            </p>
+            <p class="footer-contact color-primary">
+                049351218521
+            </p>
+            <ul class="footer-items">
+                <li class="footer-item">
+                    <a class="footer-item__footer-link" href="#"><i class="fab fa-facebook color-primary"></i></a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-item__footer-link" href=""><i class="fab fa-instagram color-primary"></i></a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-item__footer-link" href=""><i class="fab fa-linkedin-in color-primary"></i></a>
+                </li>
             </ul>
-            <label class="main-menu__responsive-button" id="icon">
-                <i class="fas fa-bars"></i>
-            </label>
-        </nav>
-    </header>
 
-    <main class="bg-secondary">
-            {{ content }} 
-    </main>
+            <a class="admin color-secondary" href="/admin">admin</a>
 
-    <footer class="bg-primary">
-        <p class="footer-contact color-primary">
-            Joske.vermeulen@hotmail.com
-        </p>
-        <p class="footer-contact color-primary">
-            049351218521
-        </p>
-        <ul class="footer-items">
-            <li class="footer-item">
-                <a class="footer-item__footer-link" href="#"><i class="fab fa-facebook color-primary"></i></a>
-            </li>
-            <li class="footer-item">
-                <a class="footer-item__footer-link" href=""><i class="fab fa-instagram color-primary"></i></a>
-            </li>
-            <li class="footer-item">
-                <a class="footer-item__footer-link" href=""><i class="fab fa-linkedin-in color-primary"></i></a>
-            </li>
-        </ul>
-
-        <a class="admin color-secondary" href="/admin">admin</a>
-
-    </footer>
+        </footer>
 
 
-</body>
+    </body>
 
 </html>
