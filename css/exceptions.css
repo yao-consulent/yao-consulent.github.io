@@ -103,8 +103,6 @@
 }
 
 
-
-
 /* Samenwerking mobile */
 
 @media (max-width: 600px) {
@@ -115,4 +113,8 @@
         grid-gap: 32px;
     }
 }
-
+@media (max-width: 600px) {
+    #contact-container{
+        display: grid;
+    }
+}
