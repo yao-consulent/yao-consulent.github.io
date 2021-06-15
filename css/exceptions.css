@@ -85,8 +85,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-      
-        padding: 16px;
         
     }
     #over-container img {
@@ -94,7 +92,7 @@
        margin: 0;
        
     }
-    
+
     #over-container p {
        text-transform: none;
        text-align: justify;
