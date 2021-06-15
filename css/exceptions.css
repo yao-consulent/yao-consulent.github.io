@@ -29,8 +29,8 @@
 #main-menu .main-menu__responsive-button {
     display: none;
 }
-
-@media (max-width: 700px){
+/*menu mobile*/
+@media (max-width: 600px){
     label.logo{
         font-size: 32px;
         padding-left: 60px;
@@ -79,8 +79,8 @@
 
 
 }
-
-@media (max-width: 700px) {
+/* Mobile over de hoofdpagina*/
+@media (max-width: 600px) {
     #over-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -90,6 +90,7 @@
     }
     #over-container img {
        width: 100%;
+       padding: 16px;
     }
 
     #over-container p {
@@ -106,7 +107,7 @@
 
 /* Samenwerking mobile */
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     #samenwerkingen-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
