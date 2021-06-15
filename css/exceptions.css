@@ -1,31 +1,3 @@
-/*@media only screen and (max-width:700px) {
-    #grid-container{
-        display: none;
-    }
-    
-
-    #main-menu> #icon{
-        display: block;
-    }
-
-    .main-menu__menu-items{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background-color: #f0371e;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-
-    }
-
-    
-
-}
-
-*/
-
 #main-menu .main-menu__responsive-button {
     display: none;
 }
@@ -113,7 +85,9 @@
         grid-gap: 32px;
     }
 }
-@media (max-width: 600px) {
+
+/*contact */
+@media (min-width: 600px) {
     #contact-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -126,4 +100,19 @@
         height: 300px;
     }
 
+}
+
+/*publicaties */
+
+@media (min-width: 600px) {
+
+  #publicatie-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 32px;
+    grid-gap: 32px;
+  }  
+
+  
 }

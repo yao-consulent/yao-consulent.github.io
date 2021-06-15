@@ -8,8 +8,9 @@ layout: default
 
     
     Ik heb verschillende background. Ik ben moeder van 5 volwassen kinderen en zorg daarnaast  voor mijn lieve mama. Ik ben dagelijks intensief bezig met diversiteit en inclusieve samenleving. 
-        
+<br>   
     Momenteel werk ik als consulent voor het Agentschap integratie en inburgering van de  Vlaamse overheid in Brussel. Mijn focus ligt op het adviseren en bieden van ondersteuning bij de ontwikkeling van gemeentelijke cultuurbeleidsplannen, op inclusieve diversiteit en op toegankelijke communicatie naar en met de doelgroepen. Daarnaast geef ik ook vormingen rond interculturele communicatie, kruispunt denken, handelingskader diversiteit, en veranderingsmanagement.
+    
 <p>In 2015 werkte ik als beleidsmedewerker op het kabinet van Minister Pascal Smet. Als adviseur ondersteunde ik het lokaal cultuurbeleid, sociaal-cultureel werk en zelforganisaties met allerlei vragen rond diversiteit en inclusie. Ook ondersteunde ik de toegankelijkheid van politieke communicatie naar de doelgroepen. 
 </p>
 <p>In 2012 studeerde ik communicatie in praktijk aan de Vrij Universiteit van Brussel. Iedereen communiceert, iedereen zoekt informatie. Maar vaak wordt de intentie niet begrepen, zeker in een stad waar diversiteit groeit en beweegt. Mijn professionele avontuur leidt me ertoe mezelf vragen te stellen over een gezonde verbinding in diverse samenleving op vlak van communicatie. 
