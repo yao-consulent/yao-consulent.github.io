@@ -2,4 +2,7 @@
 layout: default
 ---
 
-# Laat ons in contact komen
+# Neem contact met mij via:
+<p> Email: Joskevermeulen@gmail.com </p>
+<p> Gsm-nummer: +32 483638340</p>
+ 
