@@ -34,8 +34,7 @@ Thuis bouw je NOOIT alleen!  Je hebt andere helpende handen nodig. Actieve betro
 Ik geloof dat we elkaar kunnen verbinden en versterken met kleine acties. Als je doel is een divers publiek te bereiken, moet je ook weten hoe je deze doelgroep definieert zonder mensen uit te sluiten. Er is zeker nog veel werk aan de winkel maar elk stap is een stap vooruit.  
 </p>
 <p>
-Sinds 2020 studeer ik NLP (Neuro Linguïstisch Programmeren) aan de UNLP Amsterdam. NLP staat voor hoe we de wereld om ons heen waarnemen en hoe we erop reageren. 
-</p>
+Sinds 2020 studeer ik NLP (Neuro Linguïstisch Programmeren) aan de UNLP Amsterdam. NLP staat voor hoe we de wereld om ons heen waarnemen en hoe we erop reageren.</p>
 <p>
 Het ontwikkelen van een inclusieve samenleving is een kunstwerk, een proces maar het is ook een droom. Diversiteit  groeit en raakt, maar diversiteit smaakt ook! Laat ons samen groeien naar een inclusieve “thuis” voor iedereen. Ik kijk alvast uit naar een rijke samenwerking vol boeiende uitwisselingen.</p>
 </main> 
