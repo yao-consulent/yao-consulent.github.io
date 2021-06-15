@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Globe Aroma vzw
 ---
 ## Globe Aroma vzw
