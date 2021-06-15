@@ -84,15 +84,17 @@
     #over-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
+        grid-template-rows: auto;
+      
         padding: 16px;
-        grid-gap: 16px;
+        
     }
     #over-container img {
        width: 100%;
-       padding: 16px;
+       margin: 0;
+       
     }
-
+    
     #over-container p {
        text-transform: none;
        text-align: justify;
